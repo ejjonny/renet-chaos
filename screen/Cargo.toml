@@ -1,0 +1,18 @@
+[package]
+name = "screen"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+eframe = "0.28.1"
+egui = "0.28.1"
+common = { path = "../common" }
+tokio = { version = "1.39.2", features = ["full"] }
+mio = "1.0.1"
+
+bincode = { git = "https://github.com/bincode-org/bincode.git", branch = "trunk" }
+env_logger = "0.11.5"
+log = "0.4.22"
+renet_visualizer = "0.0.9"
+renet = "0.0.16"
+lilt = "0.6.1"

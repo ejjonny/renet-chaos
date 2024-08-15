@@ -1,0 +1,14 @@
+[package]
+name = "server"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+env_logger = "0.11.5"
+log = "0.4.22"
+nalgebra = "0.33.0"
+quadtree = "0.3.4"
+renet = "0.0.16"
+common = { path = "../common" }
+bincode = { git = "https://github.com/bincode-org/bincode.git", branch = "trunk" }
+byte-unit = "5.1.4"
